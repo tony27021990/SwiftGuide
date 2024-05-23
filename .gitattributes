@@ -1,2 +1,4 @@
 *.bin filter=lfs diff=lfs merge=lfs -text
 SwiftGuide filter=lfs diff=lfs merge=lfs -text
+*.pkg filter=lfs diff=lfs merge=lfs -text
+dist/* filter=lfs diff=lfs merge=lfs -text
